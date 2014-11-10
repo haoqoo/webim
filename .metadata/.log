@@ -1,0 +1,1281 @@
+!SESSION 2014-11-04 14:29:40.431 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:29:43.108
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:29:43.109
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:29:43.110
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:08.441
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:15.898
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:15.900
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:15.902
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:16.276
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2014-11-04 14:30:20.635
+!MESSAGE Error en SocketClientReceiver 69
+!STACK 0
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.listen(ClientSocketsManager.java:57)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.run(ClientSocketsManager.java:113)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2014-11-04 14:30:37.284 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:38.181
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:38.182
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:38.182
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:38.501
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:41.968
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:41.971
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:41.973
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:30:42.117
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2014-11-04 14:30:43.834
+!MESSAGE Error en SocketClientReceiver 69
+!STACK 0
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.listen(ClientSocketsManager.java:57)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.run(ClientSocketsManager.java:113)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-04 14:35:06.407
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.jface 2 0 2014-11-04 15:25:08.886
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-04 15:25:08.886
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@46628b)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@46628b)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-04 15:25:08.886
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@ef99f8)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@ef99f8)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SESSION 2014-11-05 08:55:22.077 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:25.153
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:25.154
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:25.154
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:26.360
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:32.926
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:32.929
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:32.931
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:33.438
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 08:55:38.506
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.jface 2 0 2014-11-05 08:58:38.480
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-05 08:58:38.480
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@11a638a)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@11a638a)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-05 08:58:38.480
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@17d3308)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@17d3308)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 09:01:40.569
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Add_rendering_failed in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 09:01:40.569
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Unable_to_add_selected_renderings in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-05 09:01:53.847
+!MESSAGE NLS unused message: ConsoleShowPreferencesAction__run_debug_console in: org.eclipse.debug.internal.ui.views.console.ConsoleMessages
+!SESSION 2014-11-10 13:51:04.943 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:08.155
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:08.156
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:08.157
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:25.804
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:33.028
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:33.030
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:33.032
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:33.431
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2014-11-10 13:51:39.571
+!MESSAGE Error en SocketClientReceiver 69
+!STACK 0
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.listen(ClientSocketsManager.java:57)
+	at com.adobe.flexbuilder.flexunitrunresults.data.ClientSocketsManager.run(ClientSocketsManager.java:113)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-10 13:51:50.245
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-10 13:51:51.393
+!MESSAGE 从 /SparkWebCommonComponents/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 1
+org.eclipse.core.runtime.CoreException: 找不到文件: F:\sparkweb_old\SparkWebCommonComponents\.settings\com.adobe.flexbuilder.project.prefs。
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:366)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.io.FileNotFoundException: F:\sparkweb_old\SparkWebCommonComponents\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	... 95 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2014-11-10 13:51:51.394
+!MESSAGE 找不到文件: F:\sparkweb_old\SparkWebCommonComponents\.settings\com.adobe.flexbuilder.project.prefs。
+!STACK 0
+java.io.FileNotFoundException: F:\sparkweb_old\SparkWebCommonComponents\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2014-11-10 13:51:51.455
+!MESSAGE 从 F:/sparkweb_old/SparkWebCommonComponents/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: 从 /SparkWebCommonComponents/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:460)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-10 13:51:53.064
+!MESSAGE 从 /SparkWebCore/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 1
+org.eclipse.core.runtime.CoreException: 找不到文件: F:\sparkweb_old\SparkWebCore\.settings\com.adobe.flexbuilder.project.prefs。
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:366)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryCore.getProject(FlexLibraryCore.java:65)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$LibraryFileEntry.getFlexLibraryProject(ClassPathEntryFactory.java:615)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.computeDynamicReferences(ActionScriptProjectSettings.java:1241)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateDynamicProjectReferences(ActionScriptProject.java:1452)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateToolCompileSettings(ActionScriptProject.java:1431)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.doSetProjectDescription(ActionScriptProject.java:1386)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.doSetProjectDescription(FlexLibraryProject.java:206)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:539)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.io.FileNotFoundException: F:\sparkweb_old\SparkWebCore\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	... 112 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2014-11-10 13:51:53.066
+!MESSAGE 找不到文件: F:\sparkweb_old\SparkWebCore\.settings\com.adobe.flexbuilder.project.prefs。
+!STACK 0
+java.io.FileNotFoundException: F:\sparkweb_old\SparkWebCore\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryCore.getProject(FlexLibraryCore.java:65)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$LibraryFileEntry.getFlexLibraryProject(ClassPathEntryFactory.java:615)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.computeDynamicReferences(ActionScriptProjectSettings.java:1241)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateDynamicProjectReferences(ActionScriptProject.java:1452)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateToolCompileSettings(ActionScriptProject.java:1431)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.doSetProjectDescription(ActionScriptProject.java:1386)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.doSetProjectDescription(FlexLibraryProject.java:206)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:539)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2014-11-10 13:51:53.067
+!MESSAGE 从 F:/sparkweb_old/SparkWebCore/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: 从 /SparkWebCore/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:460)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryCore.getProject(FlexLibraryCore.java:65)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$LibraryFileEntry.getFlexLibraryProject(ClassPathEntryFactory.java:615)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.computeDynamicReferences(ActionScriptProjectSettings.java:1241)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateDynamicProjectReferences(ActionScriptProject.java:1452)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.updateToolCompileSettings(ActionScriptProject.java:1431)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.doSetProjectDescription(ActionScriptProject.java:1386)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.doSetProjectDescription(FlexLibraryProject.java:206)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:539)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexLibraryProject.<init>(FlexLibraryProject.java:77)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$3.doCreate(ActionScriptCore.java:331)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.FlexProjectManager.getActionScriptOrFlexProject(FlexProjectManager.java:642)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:993)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-10 13:51:53.311
+!MESSAGE 从 /SparkWeb/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 1
+org.eclipse.core.runtime.CoreException: 找不到文件: F:\sparkweb_old\SparkWeb\.settings\com.adobe.flexbuilder.project.prefs。
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:366)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.internal.FlexProjectSettings.getFlexSDK(FlexProjectSettings.java:542)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.internal.FlexProject.createDescription(FlexProject.java:150)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexProject.<init>(FlexProject.java:85)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$2.doCreate(ActionScriptCore.java:317)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:806)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:826)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.preloadAllProjects(CMFactory.java:109)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.getLockObject(CMFactory.java:82)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:995)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.io.FileNotFoundException: F:\sparkweb_old\SparkWeb\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	... 100 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2014-11-10 13:51:53.312
+!MESSAGE 找不到文件: F:\sparkweb_old\SparkWeb\.settings\com.adobe.flexbuilder.project.prefs。
+!STACK 0
+java.io.FileNotFoundException: F:\sparkweb_old\SparkWeb\.settings\com.adobe.flexbuilder.project.prefs (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:357)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:667)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:455)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.internal.FlexProjectSettings.getFlexSDK(FlexProjectSettings.java:542)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.internal.FlexProject.createDescription(FlexProject.java:150)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexProject.<init>(FlexProject.java:85)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$2.doCreate(ActionScriptCore.java:317)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:806)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:826)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.preloadAllProjects(CMFactory.java:109)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.getLockObject(CMFactory.java:82)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:995)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2014-11-10 13:51:53.313
+!MESSAGE 从 F:/sparkweb_old/SparkWeb/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: 从 /SparkWeb/.settings/com.adobe.flexbuilder.project.prefs 中装入首选参数时发生异常。
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:460)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:669)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getPreferences(FlexProjectPreferences.java:109)
+	at com.adobe.flexbuilder.project.actionscript.internal.FlexProjectPreferences.getUpgradeFlexSDK(FlexProjectPreferences.java:167)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDKName(ActionScriptProjectSettings.java:1747)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.getFlexSDK(ActionScriptProjectSettings.java:1761)
+	at com.adobe.flexbuilder.project.internal.FlexProjectSettings.getFlexSDK(FlexProjectSettings.java:542)
+	at com.adobe.flexbuilder.project.ClassPathEntryFactory$FlexSDKClasspathEntry.getChildLibraries(ClassPathEntryFactory.java:730)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.addDefaultSourceAttachmentPaths(ActionScriptProjectSettings.java:1139)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProjectSettings.onLoaded(ActionScriptProjectSettings.java:340)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.createDescription(ActionScriptProject.java:572)
+	at com.adobe.flexbuilder.project.internal.FlexProject.createDescription(FlexProject.java:150)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.loadDescription(ActionScriptProject.java:537)
+	at com.adobe.flexbuilder.project.actionscript.internal.ActionScriptProject.<init>(ActionScriptProject.java:182)
+	at com.adobe.flexbuilder.project.internal.FlexBasedProject.<init>(FlexBasedProject.java:100)
+	at com.adobe.flexbuilder.project.internal.FlexProject.<init>(FlexProject.java:85)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$2.doCreate(ActionScriptCore.java:317)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.run(ActionScriptCore.java:502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at com.adobe.flexbuilder.project.FlexWorkspaceRunner.run(FlexWorkspaceRunner.java:61)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore$ProjectCreator.safeGetOrCreate(ActionScriptCore.java:476)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getProject(ActionScriptCore.java:438)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:806)
+	at com.adobe.flexbuilder.project.actionscript.ActionScriptCore.getAllProjects(ActionScriptCore.java:826)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.preloadAllProjects(CMFactory.java:109)
+	at com.adobe.flexbuilder.codemodel.common.CMFactory.getLockObject(CMFactory.java:82)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:995)
+	at com.adobe.flexbuilder.codemodel.internal.project.EclipseProjectListener.registerProject(EclipseProjectListener.java:807)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog$1.run(CodeModelProjectLoadDialog.java:194)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at com.adobe.flexide.editorcore.loadservice.CodeModelProjectLoadDialog.runLoadProject(CodeModelProjectLoadDialog.java:188)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:52)
+	at com.adobe.flexide.editorcore.loadservice.DefaultCMLoadService.loadProject(DefaultCMLoadService.java:71)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexDocumentProvider.connect(AbstractFlexDocumentProvider.java:106)
+	at com.adobe.flexbuilder.mxml.editor.code.MXMLDocumentProvider.connect(MXMLDocumentProvider.java:65)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4134)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:203)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1413)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:166)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.doSetInput(AbstractFlexEditor.java:1422)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3115)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3133)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3160)
+	at com.adobe.flexide.editorcore.editor.AbstractFlexEditor.init(AbstractFlexEditor.java:452)
+	at com.adobe.flexide.mxml.core.editor.MXMLCoreEditor.init(MXMLCoreEditor.java:75)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:238)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:212)
+	at com.adobe.flexbuilder.editorcore.editor.CodeAndDesignEditor.createPages(CodeAndDesignEditor.java:209)
+	at com.adobe.flexbuilder.mxml.editor.MXMLEditor.createPages(MXMLEditor.java:217)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:357)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlexBuilderApplication.start(FlexBuilderApplication.java:109)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2014-11-10 13:52:41.945
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-10 13:52:41.945
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@1cad3a6)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@1cad3a6)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-10 13:52:41.945
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@10d4170)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@10d4170)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
