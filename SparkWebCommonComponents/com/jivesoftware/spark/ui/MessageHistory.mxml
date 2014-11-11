@@ -61,8 +61,8 @@
 					}
 				}
 			});*/
-			scrollTimer.addEventListener(TimerEvent.TIMER_COMPLETE, _adjustHistory);
-			callLater(_adjustHistory, [true]);
+			//scrollTimer.addEventListener(TimerEvent.TIMER_COMPLETE, _adjustHistory);
+			//callLater(_adjustHistory, [true]);
 		}
 		
 		public function getMostRecentlyActiveUserName(prefix:String = "", startUserName:String = null):String

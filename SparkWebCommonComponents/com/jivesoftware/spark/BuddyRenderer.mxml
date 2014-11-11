@@ -40,38 +40,41 @@
  
 <mx:Script>
 	<![CDATA[
-		import org.jivesoftware.xiff.core.UnescapedJID;
-		import org.jivesoftware.xiff.conference.Room;
-		import mx.events.ListEvent;
-		import mx.events.FlexEvent;
-		import mx.controls.listClasses.ListBase;
-		import mx.effects.IEffectInstance;
-		import mx.effects.Effect;
-		import mx.events.EffectEvent;
-		import mx.events.ResizeEvent;
-		import mx.effects.Resize;
-		import com.jivesoftware.spark.managers.ChatManager;
-		import org.jivesoftware.xiff.conference.RoomOccupant;
-		import org.jivesoftware.xiff.data.im.Contact;
-		import org.jivesoftware.xiff.events.VCardEvent;
-		import com.jivesoftware.spark.managers.Localizator;
-		import com.jivesoftware.spark.ProfileWindow;
-		import com.jivesoftware.spark.GroupChangeWindow;
 		import com.jivesoftware.spark.BuddyToolTip;
-		import mx.core.IToolTip;
-		import mx.core.UIComponent;
-		import org.jivesoftware.xiff.events.RosterEvent;
-		import mx.binding.utils.BindingUtils;
-		import org.jivesoftware.xiff.data.im.RosterItemVO;
-		import mx.graphics.BitmapFill;
-		import org.jivesoftware.xiff.data.Presence;
-		import org.jivesoftware.xiff.vcard.VCard;
+		import com.jivesoftware.spark.GroupChangeWindow;
+		import com.jivesoftware.spark.ProfileWindow;
+		import com.jivesoftware.spark.managers.ChatManager;
+		import com.jivesoftware.spark.managers.Localizator;
+		import com.jivesoftware.spark.managers.PresenceManager;
+		import com.jivesoftware.spark.managers.SparkManager;
+		
 		import flash.events.MouseEvent;
+		
+		import mx.binding.utils.BindingUtils;
 		import mx.collections.ArrayCollection;
 		import mx.controls.*;
-		import com.jivesoftware.spark.managers.SparkManager;
-		import com.jivesoftware.spark.managers.PresenceManager;
+		import mx.controls.listClasses.ListBase;
+		import mx.core.IToolTip;
+		import mx.core.UIComponent;
+		import mx.effects.Effect;
+		import mx.effects.IEffectInstance;
+		import mx.effects.Resize;
+		import mx.events.EffectEvent;
+		import mx.events.FlexEvent;
+		import mx.events.ListEvent;
+		import mx.events.ResizeEvent;
+		import mx.graphics.BitmapFill;
+		
+		import org.jivesoftware.xiff.conference.Room;
+		import org.jivesoftware.xiff.conference.RoomOccupant;
+		import org.jivesoftware.xiff.core.UnescapedJID;
+		import org.jivesoftware.xiff.data.Presence;
+		import org.jivesoftware.xiff.data.im.Contact;
 		import org.jivesoftware.xiff.data.im.RosterExtension;
+		import org.jivesoftware.xiff.data.im.RosterItemVO;
+		import org.jivesoftware.xiff.events.RosterEvent;
+		import org.jivesoftware.xiff.events.VCardEvent;
+		import org.jivesoftware.xiff.vcard.VCard;
 		
 		protected var _selected:Boolean = false;
 		protected var _changingName:Boolean = false;
@@ -100,6 +103,8 @@
 		
 		protected var expandArrow:Button = null;
 		
+		
+		
 		protected function initRenderer():void
 		{
 			outerList = owner as ListBase;
@@ -122,7 +127,7 @@
 		}
 		
 		[Bindable]
-		[Bindable(event=dataChanged)]
+		[Bindable(event="dataChanged")]
 		public function get rosterItem():RosterItemVO
 		{
 			if(data is RosterItemVO)
@@ -202,6 +207,15 @@
 			event.stopImmediatePropagation();
 		}
 		
+		public function chatHistory(event:Event):void 
+		{
+			cancelClickTimer();
+			
+			//trace(SparkManager.me.displayName);
+			ChatManager.sharedInstance.fetchChatHistory(SparkManager.me.displayName,jid.node);
+			event.stopImmediatePropagation();
+		}
+		
 		public function loadVCard(rosterItem:RosterItemVO):void 
 		{
 			var card:VCard = VCard.getVCard(SparkManager.connectionManager.connection, rosterItem)
@@ -261,6 +275,7 @@
 			//addEventListener(MouseEvent.CLICK, singleClicked);
 			addEventListener(FocusEvent.MOUSE_FOCUS_CHANGE, cancelClickTimer);
 			addEventListener(FocusEvent.KEY_FOCUS_CHANGE, cancelClickTimer);
+			setupContextMenu(this);
 		}
 		
 		/**** Setters ****/
@@ -309,7 +324,7 @@
 		}
 		
 		[Bindable]
-		[Bindable(event=dataUpdated)]
+		[Bindable(event="dataUpdated")]
 		public function get contact():Contact { return data as Contact; }
 		
 		public function formatStatus(status:String):String 
@@ -369,6 +384,26 @@
 			
 		}
 		
+		private function setupContextMenu(component:UIComponent):void
+		{
+			var profileMenu:ContextMenu = new ContextMenu();
+			profileMenu.hideBuiltInItems();
+			
+			var startChatMenuItem:ContextMenuItem = new ContextMenuItem(Localizator.getText('menu.contact.start.chat'));
+			startChatMenuItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, doubleClicked);
+			
+			var delUserMenuItem:ContextMenuItem = new ContextMenuItem(Localizator.getText('menu.contact.remove'));
+			delUserMenuItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, removeUser);
+			
+			
+			var chatHistoryMenuItem:ContextMenuItem = new ContextMenuItem(Localizator.getText('menu.contact.history'));
+			chatHistoryMenuItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, chatHistory);
+			
+			profileMenu.customItems =[startChatMenuItem,delUserMenuItem,chatHistoryMenuItem];
+					
+			component.contextMenu = profileMenu;
+		}
+		
 		public function close():void 
 		{
 			if(!expanded)
@@ -376,6 +411,15 @@
 			removeChild(actionsPane);
 			expanded = false;
 		}
+		
+		public function removeUser(event:Event):void 
+		{
+			cancelClickTimer();
+			SparkManager.roster.removeContact(rosterItem);
+			event.stopImmediatePropagation();
+		}
+		
+		
 
 	]]>
 </mx:Script>

@@ -104,6 +104,14 @@ package com.jivesoftware.spark.managers
 			return chat;
 		}
 		
+		public function fetchChatHistory(from:String,to:String):void{
+			var evt:ChatEvent = new ChatEvent(ChatEvent.CHAT_HISTORY);
+			evt.from = from;
+			evt.to = to;
+			dispatchEvent(evt);
+		
+		}
+		
 		/**
 		 * Closes a chat
 		 * @param jid the JID of the chat to close

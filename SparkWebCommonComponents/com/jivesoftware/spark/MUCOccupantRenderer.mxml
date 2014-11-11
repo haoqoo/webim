@@ -44,13 +44,13 @@
 				_rosterItem = ri;
 			}
 			
-			[Bindable(event=dataChanged)]
+			[Bindable(event="dataChanged")]
 			public override function get rosterItem():RosterItemVO
 			{
 				return _rosterItem;
 			}
 			
-			[Bindable(event=dataChanged)]
+			[Bindable(event="dataChanged")]
 			public function get occupant():RoomOccupant
 			{
 				return data as RoomOccupant;

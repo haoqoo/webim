@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorShiftingTitleWindow xmlns="com.jivesoftware.spark.*" xmlns:mx="http://www.adobe.com/2006/mxml" showCloseButton="true" close="close()"
+						  creationComplete="init()" width="630" color="white" titleIcon="@Embed(source='/assets/images/tiny-search.png')">
+	
+</ColorShiftingTitleWindow>

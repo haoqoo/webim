@@ -1279,3 +1279,204 @@ Binding(CTRL+SHIFT+G,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SESSION 2014-11-11 08:35:06.200 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:09.367
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:09.367
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:09.367
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:16.730
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-11 08:35:16.949
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:26.422
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:26.443
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:26.445
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:31.407
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 08:35:41.932
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.jface 2 0 2014-11-11 08:35:58.178
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-11 08:35:58.178
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@70f11)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@70f11)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-11 08:35:58.178
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@16e523d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@16e523d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:16:53.362
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Save_changes__31 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:16:53.377
+!MESSAGE NLS unused message: LaunchConfigurationFilteredTree_type_filter_text in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:30.098
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Add_rendering_failed in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:30.099
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Unable_to_add_selected_renderings in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:39.456
+!MESSAGE NLS unused message: ConsoleShowPreferencesAction__run_debug_console in: org.eclipse.debug.internal.ui.views.console.ConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.577
+!MESSAGE NLS unused message: breadcrumb_LabelPending in: org.eclipse.debug.internal.ui.views.launch.LaunchViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.717
+!MESSAGE NLS unused message: VariablesView__Copy_8 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.717
+!MESSAGE NLS unused message: VariablesView__Paste_14 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.718
+!MESSAGE NLS unused message: VariablesView_Co_ntent_Assist_3 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.718
+!MESSAGE NLS unused message: VariablesView_Cu_t_11 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.718
+!MESSAGE NLS unused message: VariablesView_Error_1 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.718
+!MESSAGE NLS unused message: VariablesView_Select__All_5 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.719
+!MESSAGE NLS unused message: VariablesView_Unable_to_configure_variable_details_area__2 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:49.719
+!MESSAGE NLS unused message: VariablesView_56 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:50.222
+!MESSAGE NLS unused message: VariableColumnPresentation_4 in: org.eclipse.debug.internal.ui.elements.adapters.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-11 13:17:50.223
+!MESSAGE NLS unused message: VariableColumnPresentation_5 in: org.eclipse.debug.internal.ui.elements.adapters.Messages
+
+!ENTRY org.eclipse.jface 2 0 2014-11-11 13:35:56.754
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-11 13:35:56.755
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoindent,更正缩进,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript 源代码编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(jp.gr.java_conf.ussiy.app.propedit.showunicode.command,Show Unicode,
+		,
+		Category(jp.gr.java_conf.ussiy.app.propedit.category,PropertiesEditor,null,true),
+		ActionDelegateHandlerProxy(null,jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.action.ShowUnicodeEscAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	jp.gr.java_conf.ussiy.app.propedit.PropertiesEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-11 13:35:56.755
+!MESSAGE A conflict occurred for CTRL+/:
+Binding(CTRL+/,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.toggle.comment,切换注释 ,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex 编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+/,
+	ParameterizedCommand(Command(jp.gr.java_conf.ussiy.app.propedit.togglecomment.command,Toggle Comment,
+		,
+		Category(jp.gr.java_conf.ussiy.app.propedit.category,PropertiesEditor,null,true),
+		ActionDelegateHandlerProxy(null,jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.action.ToggleCommentAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	jp.gr.java_conf.ussiy.app.propedit.PropertiesEditorScope,,,system)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2014-11-11 16:50:33.209
+!MESSAGE Error getting breakpoint text
+!STACK 1
+org.eclipse.debug.core.DebugException: Breakpoint does not have an associated marker.
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:268)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.getHitCount(FlexBreakpoint.java:263)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.getTextWithoutStatus(FlexLineBreakpoint.java:374)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.getText(FlexBreakpoint.java:243)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.getMessage(FlexLineBreakpoint.java:245)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.updateMessageAttribute(FlexBreakpoint.java:191)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.changeInstantiationStatusCount(FlexBreakpoint.java:142)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.removeInstantiationStatus(FlexBreakpoint.java:114)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpointMap.clearBreakpointLocations(FlexBreakpointMap.java:122)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.uninstantiate(FlexLineBreakpoint.java:555)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.uninstantiateBreakpoint(FlexDebugTarget.java:1034)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.access$12(FlexDebugTarget.java:1031)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget$2.run(FlexDebugTarget.java:1072)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2014-11-11 16:50:33.223
+!MESSAGE Breakpoint does not have an associated marker.
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2014-11-11 16:50:33.228
+!MESSAGE 找不到标记 ID 321。
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: 找不到标记 ID 321。
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:236)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.updateMessageAttribute(FlexBreakpoint.java:196)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.changeInstantiationStatusCount(FlexBreakpoint.java:142)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.removeInstantiationStatus(FlexBreakpoint.java:114)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpointMap.clearBreakpointLocations(FlexBreakpointMap.java:122)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.uninstantiate(FlexLineBreakpoint.java:555)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.uninstantiateBreakpoint(FlexDebugTarget.java:1034)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.access$12(FlexDebugTarget.java:1031)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget$2.run(FlexDebugTarget.java:1072)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2014-11-11 16:50:33.228
+!MESSAGE 找不到标记 ID 321。

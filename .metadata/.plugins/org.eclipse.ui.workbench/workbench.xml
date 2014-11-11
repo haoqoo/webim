@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="75" y="75">
+<window height="768" maximized="true" width="1024" x="-367" y="89">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -16,8 +16,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="jp.gr.java_conf.ussiy.app.propedit.editors.PropertiesEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -30,24 +31,198 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="BuddyRenderer.mxml" partName="BuddyRenderer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml" title="BuddyRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml" workbook="DefaultEditorWorkbook">
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="LoginDialog.mxml" partName="LoginDialog.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/LoginDialog.mxml" title="LoginDialog.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/LoginDialog.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/LoginDialog.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="CreateAccountDialog.mxml" partName="CreateAccountDialog.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/CreateAccountDialog.mxml" title="CreateAccountDialog.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/CreateAccountDialog.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/CreateAccountDialog.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ShowBorders.as" partName="ShowBorders.as" path="F:/sparkweb_old/SparkWeb/src/com/kebinger/flexlayout/ShowBorders.as" title="ShowBorders.as" tooltip="SparkWeb/src/com/kebinger/flexlayout/ShowBorders.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWeb/src/com/kebinger/flexlayout/ShowBorders.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="952"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="UserSearchWindow.mxml" partName="UserSearchWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/UserSearchWindow.mxml" title="UserSearchWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/UserSearchWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/UserSearchWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="SearchWindow.mxml" partName="SearchWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/SearchWindow.mxml" title="SearchWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/SearchWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/SearchWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="StatusBox.mxml" partName="StatusBox.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/StatusBox.mxml" title="StatusBox.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/StatusBox.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/StatusBox.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="PresenceManager.as" partName="PresenceManager.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/managers/PresenceManager.as" title="PresenceManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/PresenceManager.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/managers/PresenceManager.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2519" selectionTopPixel="39"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SparkManager.as" partName="SparkManager.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/managers/SparkManager.as" title="SparkManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/SparkManager.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/managers/SparkManager.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2092" selectionTopPixel="611"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ConnectionManager.as" partName="ConnectionManager.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/managers/ConnectionManager.as" title="ConnectionManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/ConnectionManager.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/managers/ConnectionManager.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3689" selectionTopPixel="1248"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="SparkWeb.mxml" partName="SparkWeb.mxml" path="F:/sparkweb_old/SparkWeb/src/SparkWeb.mxml" title="SparkWeb.mxml" tooltip="SparkWeb/src/SparkWeb.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWeb/src/SparkWeb.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="BuddyRenderer.mxml" partName="BuddyRenderer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml" title="BuddyRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="AddServerWindow.mxml" partName="AddServerWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/AddServerWindow.mxml" title="AddServerWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/AddServerWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/AddServerWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="AddUserWindow.mxml" partName="AddUserWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/AddUserWindow.mxml" title="AddUserWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/AddUserWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/AddUserWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="XMPPConnection.as" partName="XMPPConnection.as" path="F:/sparkweb_old/xiff2/src/org/jivesoftware/xiff/core/XMPPConnection.as" title="XMPPConnection.as" tooltip="xiff2/src/org/jivesoftware/xiff/core/XMPPConnection.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xiff2/src/org/jivesoftware/xiff/core/XMPPConnection.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21935" selectionTopPixel="9672"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ContactListTab.mxml" partName="ContactListTab.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ContactListTab.mxml" title="ContactListTab.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ContactListTab.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactListTab.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SharedGroupsManager.as" partName="SharedGroupsManager.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/managers/SharedGroupsManager.as" title="SharedGroupsManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/SharedGroupsManager.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/managers/SharedGroupsManager.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="1543" selectionTopPixel="455"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="GroupChangeWindow.mxml" partName="GroupChangeWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/GroupChangeWindow.mxml" title="GroupChangeWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/GroupChangeWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/GroupChangeWindow.mxml"/>
+</editor>
+<editor activePart="true" focus="true" id="jp.gr.java_conf.ussiy.app.propedit.editors.PropertiesEditor" name="en.properties" partName="en.properties" path="F:/sparkweb_old/SparkWebCore/locale/en.properties" title="en.properties" tooltip="SparkWebCore/locale/en.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/locale/en.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4525" selectionTopPixel="780"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="SubscriptionRequestWindow.mxml" partName="SubscriptionRequestWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/SubscriptionRequestWindow.mxml" title="SubscriptionRequestWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/SubscriptionRequestWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/SubscriptionRequestWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="UnescapedJID.as" partName="UnescapedJID.as" path="F:/sparkweb_old/xiff2/src/org/jivesoftware/xiff/core/UnescapedJID.as" title="UnescapedJID.as" tooltip="xiff2/src/org/jivesoftware/xiff/core/UnescapedJID.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xiff2/src/org/jivesoftware/xiff/core/UnescapedJID.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="80" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractJID.as" partName="AbstractJID.as" path="F:/sparkweb_old/xiff2/src/org/jivesoftware/xiff/core/AbstractJID.as" title="AbstractJID.as" tooltip="xiff2/src/org/jivesoftware/xiff/core/AbstractJID.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xiff2/src/org/jivesoftware/xiff/core/AbstractJID.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="3747" selectionTopPixel="63"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="BuddyActionsRenderer.mxml" partName="BuddyActionsRenderer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/BuddyActionsRenderer.mxml" title="BuddyActionsRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/BuddyActionsRenderer.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/BuddyActionsRenderer.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChatRoom.mxml" partName="ChatRoom.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ChatRoom.mxml" title="ChatRoom.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ChatRoom.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatRoom.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RosterEvent.as" partName="RosterEvent.as" path="F:/sparkweb_old/xiff2/src/org/jivesoftware/xiff/events/RosterEvent.as" title="RosterEvent.as" tooltip="xiff2/src/org/jivesoftware/xiff/events/RosterEvent.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xiff2/src/org/jivesoftware/xiff/events/RosterEvent.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="1737" selectionTopPixel="39"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ChatManager.as" partName="ChatManager.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/managers/ChatManager.as" title="ChatManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/ChatManager.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/managers/ChatManager.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3038" selectionTopPixel="1209"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ChatEvent.as" partName="ChatEvent.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/events/ChatEvent.as" title="ChatEvent.as" tooltip="SparkWebCore/com/jivesoftware/spark/events/ChatEvent.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/events/ChatEvent.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="182" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SparkChat.as" partName="SparkChat.as" path="F:/sparkweb_old/SparkWebCore/com/jivesoftware/spark/chats/SparkChat.as" title="SparkChat.as" tooltip="SparkWebCore/com/jivesoftware/spark/chats/SparkChat.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCore/com/jivesoftware/spark/chats/SparkChat.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1240" selectionTopPixel="286"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ContactList.mxml" partName="ContactList.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml" title="ContactList.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ListGroup.mxml" partName="ListGroup.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml" title="ListGroup.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml"/>
 </editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MUCOccupantRenderer.mxml" partName="MUCOccupantRenderer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/MUCOccupantRenderer.mxml" title="MUCOccupantRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/MUCOccupantRenderer.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/MUCOccupantRenderer.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MUCRoomListItemRenderer.mxml" partName="MUCRoomListItemRenderer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/MUCRoomListItemRenderer.mxml" title="MUCRoomListItemRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/MUCRoomListItemRenderer.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/MUCRoomListItemRenderer.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RosterItemVO.as" partName="RosterItemVO.as" path="F:/sparkweb_old/xiff2/src/org/jivesoftware/xiff/data/im/RosterItemVO.as" title="RosterItemVO.as" tooltip="xiff2/src/org/jivesoftware/xiff/data/im/RosterItemVO.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xiff2/src/org/jivesoftware/xiff/data/im/RosterItemVO.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="216" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChatContainer.mxml" partName="ChatContainer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml" title="ChatContainer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MessageHistory.mxml" partName="MessageHistory.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ui/MessageHistory.mxml" title="MessageHistory.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ui/MessageHistory.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ui/MessageHistory.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Editor.mxml" partName="Editor.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ui/Editor.mxml" title="Editor.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ui/Editor.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ui/Editor.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ColorShiftingTitleWindow.mxml" partName="ColorShiftingTitleWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ColorShiftingTitleWindow.mxml" title="ColorShiftingTitleWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ColorShiftingTitleWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ColorShiftingTitleWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="HistoryInfoWindow.mxml" partName="HistoryInfoWindow.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml" title="HistoryInfoWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ContactListContainer.mxml" partName="ContactListContainer.mxml" path="F:/sparkweb_old/SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml" title="ContactListContainer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml"/>
+</editor>
 </editors>
 <views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="表达式"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="进度">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="搜索">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="调试">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="问题">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="问题">
 <expanded>
-<category IMemento.internal.id="警告（10 项）"/>
+<category IMemento.internal.id="错误（5 项）"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -61,14 +236,10 @@
 <view id="com.adobe.flexbuilder.packageexplorer" partName="包资源管理器">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" fpeIsFlat="0" fpeSortBy="1" sorter="1">
 <fpeExpanded>
+<fpeElement fpePath="/SparkWeb/src"/>
 <fpeElement fpePath="/SparkWeb/bin-debug"/>
 <fpeElement fpePath="/SparkWebCommonComponents/com/jivesoftware/spark"/>
-<fpeElement fpePath="/SparkWebCore"/>
-<fpeElement fpePath="/SparkWebCore/com/jivesoftware/spark"/>
-<fpeElement fpePath="/SparkWebCore/com/jivesoftware/spark/managers"/>
-<fpeElement fpePath="/xiff2"/>
-<fpeElement fpePath="/xiff2/src"/>
-<fpeElement fpePath="/xiff2/src/org/jivesoftware/xiff"/>
+<fpeElement fpePath="/SparkWebCore/locale"/>
 </fpeExpanded>
 <filters>
 <filter element=".flexProperties" isEnabled="true"/>
@@ -88,17 +259,14 @@
 <filter element=".model" isEnabled="true"/>
 <filter element=".*" isEnabled="false"/>
 </filters>
-<expanded>
-<element path="/SparkWebCore"/>
-<element path="/xiff2"/>
-</expanded>
 </viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="断点"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="变量">
+<viewState/>
 </view>
 <view id="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView" partName="网络监视器"/>
 <view id="com.adobe.flexbuilder.dcrad.views.DataServicesView" partName="数据/服务"/>
-<view id="com.adobe.flexbuilder.as.editor.asdocviewer" partName="ASDoc">
-<viewState/>
-</view>
 </views>
 <perspectives activePart="com.adobe.flexbuilder.packageexplorer" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -153,8 +321,9 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="com.adobe.flexbuilder.dcrad.views.DataServicesView"/>
 <view id="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView"/>
-<view id="com.adobe.flexbuilder.as.editor.asdocviewer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -173,10 +342,11 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2617215" ratioLeft="374" ratioRight="1055" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1544e44"/>
+<info part="org.eclipse.ui.editorss" ratio="0.26452065" ratioLeft="378" ratioRight="1051" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1544e44"/>
 <info folder="true" part="statesViewHolder" ratio="0.65" ratioLeft="520" ratioRight="280" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="com.adobe.flexbuilder.mxml.editor.states.StatesViewer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="propertiesHolder" ratio="0.24884081" ratioLeft="161" ratioRight="486" relationship="4" relative="statesViewHolder">
@@ -191,14 +361,17 @@
 <page content="org.eclipse.ui.views.ProblemView" label="问题"/>
 <page content="com.adobe.flexbuilder.dcrad.views.DataServicesView" label="数据/服务"/>
 <page content="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView" label="网络监视器"/>
-<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="ASDoc"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="搜索"/>
+<page content="org.eclipse.ui.views.ProgressView" label="进度"/>
+<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -212,46 +385,276 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.adobe.flexbuilder.debug.ui.perspectives.FlexDebugPerspectiveFactory" id="com.adobe.flexbuilder.debug.ui.perspectives.debug" label="Flash 调试"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editorcore.modeswitch"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.navigate"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.launch"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.debug.ui.flexDebuggingActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.AppearanceView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.components.ComponentsView"/>
+<show_view_action id="com.adobe.flexbuilder.packageexplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.inspector.view.PropertiesView"/>
+<show_view_action id="com.adobe.flexbuilder.mxml.editor.states.StatesViewer"/>
+<new_wizard_action id="com.adobe.flexbuilder.editorcore.ui.project.wizards.newproject"/>
+<new_wizard_action id="com.adobe.flexbuilder.project.ui.wizards.FlexLibraryProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.flashbridge.NewFlashProProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.project.ui.wizards.NewActionScriptProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLApplication"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLComponent"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLItemRenderer"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLModule"/>
+<new_wizard_action id="com.adobe.flexbuilder.mxml.editor.ui.wizards.NewMXMLSkin"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.wizards.NewActionScriptFile.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.classWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.interfaceWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.css.editor.wizards.NewCSSFile"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.flexUnitClassWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.flexUnitTestSuiteClassWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.as.editor.packageWizard.flex"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development"/>
+<perspective_action id="com.adobe.flexbuilder.debug.ui.perspectives.debug"/>
+<perspective_action id="com.adobe.flash.profiler.ui.ProfilingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.adobe.flexbuilder.dcrad.views.DataServicesView"/>
+<view id="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="调试"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7493369" ratioLeft="565" ratioRight="189" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
+<page content="com.adobe.flexbuilder.dcrad.views.DataServicesView" label="数据/服务"/>
+<page content="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView" label="网络监视器"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.32920355" ratioLeft="186" ratioRight="379" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="变量"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="断点"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="表达式"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" id="com.adobe.flexbuilder.ui.StartPage" style="20" tooltip="Flash Builder 启动页" url="file:/F:/flexbuilder/Adobe Flash Builder 4/plugins/com.adobe.flexbuilder.ui.nl1_4.0.0.272416/nl/zh/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=400"/>
-<editor factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" id="com.adobe.flexbuilder.ui.StartPage" style="20" tooltip="Flash Builder 启动页" url="file:/F:/flexbuilder/Adobe Flash Builder 4/plugins/com.adobe.flexbuilder.ui.nl1_4.0.0.272416/nl/zh/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=400"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/SparkWebCore/com/jivesoftware/spark/managers/AbstractSearchManager.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/xiff2/src/org/jivesoftware/xiff/data/IQ.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/xiff2/src/org/jivesoftware/xiff/data/IQ.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatRoom.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/AddUserWindow.mxml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/AddServerWindow.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/SparkWebCommonComponents/com/jivesoftware/spark/AddUserWindow.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/SparkWebCore/com/jivesoftware/spark/managers/ChatManager.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="jp.gr.java_conf.ussiy.app.propedit.editors.PropertiesEditor" path="/SparkWebCore/locale/en.properties"/>
 </editors>
-<item historyLabel="启动页" index="0"/>
-<item historyLabel="启动页" index="1"/>
-<item historyLabel="AbstractSearchManager.as" index="2">
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="AddServerWindow.mxml" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="AbstractSearchManager.as" index="2">
-<position info="not_deleted" x="6467" y="0"/>
-</item>
-<item historyLabel="AbstractSearchManager.as" index="2">
-<position info="not_deleted" x="10150" y="0"/>
-</item>
-<item historyLabel="IQ.as" index="3">
-<position info="not_deleted" x="2528" y="0"/>
-</item>
-<item historyLabel="AbstractSearchManager.as" index="2">
-<position info="not_deleted" x="10150" y="0"/>
-</item>
-<item historyLabel="IQ.as" index="4">
-<position info="not_deleted" x="2528" y="0"/>
-</item>
-<item historyLabel="BuddyRenderer.mxml" index="5">
+<item historyLabel="AddUserWindow.mxml" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ListGroup.mxml" index="6">
+<item historyLabel="ListGroup.mxml" index="2">
+<position info="not_deleted" x="6791" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="1711" y="0"/>
+</item>
+<item historyLabel="ContactList.mxml" index="6">
+<position info="not_deleted" x="2654" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="4735" y="0"/>
+</item>
+<item historyLabel="ContactList.mxml" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="BuddyRenderer.mxml" index="5">
+<item historyLabel="ListGroup.mxml" index="2">
+<position info="not_deleted" x="6791" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="5049" y="82"/>
+</item>
+<item historyLabel="ChatRoom.mxml" index="0">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="5049" y="82"/>
+</item>
+<item historyLabel="ContactList.mxml" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="4735" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="5103" y="12"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="4735" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="5103" y="12"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="2456" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="5103" y="12"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="8">
+<position info="not_deleted" x="5124" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="8">
+<position info="not_deleted" x="3522" y="1049"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3812" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="5795" y="184"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3921" y="0"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3921" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="7">
+<position info="not_deleted" x="3522" y="1049"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="8">
+<position info="not_deleted" x="5124" y="0"/>
+</item>
+<item historyLabel="ChatContainer.mxml" index="8">
+<position info="not_deleted" x="3538" y="12"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="5795" y="184"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="4072" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="5795" y="184"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3915" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="5795" y="184"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3949" y="0"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="5795" y="184"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="783" y="250"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3949" y="0"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="721" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="3949" y="0"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="1">
+<position info="not_deleted" x="783" y="250"/>
+</item>
+<item historyLabel="AddUserWindow.mxml" index="9">
+<position info="not_deleted" x="2505" y="31"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="529" y="0"/>
+</item>
+<item historyLabel="ContactListContainer.mxml" index="5">
+<position info="not_deleted" x="4156" y="0"/>
+</item>
+<item historyLabel="ChatManager.as" index="10">
+<position info="not_deleted" x="3038" y="0"/>
+</item>
+<item historyLabel="HistoryInfoWindow.mxml" index="3">
+<position info="not_deleted" x="205" y="25"/>
+</item>
+<item active="true" historyLabel="en.properties" index="11">
+<position info="not_deleted" x="3887" y="20"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -259,6 +662,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1544e44"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -266,27 +672,46 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomLayout"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ContactListContainer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactListContainer.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="HistoryInfoWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/HistoryInfoWindow.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ColorShiftingTitleWindow.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ColorShiftingTitleWindow.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ColorShiftingTitleWindow.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Editor.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ui/Editor.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ui/Editor.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MessageHistory.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ui/MessageHistory.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ui/MessageHistory.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ChatContainer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ChatContainer.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="RosterItemVO.as" tooltip="xiff2/src/org/jivesoftware/xiff/data/im/RosterItemVO.as">
+<persistable path="/xiff2/src/org/jivesoftware/xiff/data/im/RosterItemVO.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MUCRoomListItemRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/MUCRoomListItemRenderer.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/MUCRoomListItemRenderer.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MUCOccupantRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/MUCOccupantRenderer.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/MUCOccupantRenderer.mxml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ListGroup.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml">
 <persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ListGroup.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="BuddyRenderer.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml">
-<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/BuddyRenderer.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ContactList.mxml" tooltip="SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml">
+<persistable path="/SparkWebCommonComponents/com/jivesoftware/spark/ContactList.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="IQ.as" tooltip="xiff2/src/org/jivesoftware/xiff/data/IQ.as">
-<persistable path="/xiff2/src/org/jivesoftware/xiff/data/IQ.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="AbstractSearchManager.as" tooltip="SparkWebCore/com/jivesoftware/spark/managers/AbstractSearchManager.as">
-<persistable path="/SparkWebCore/com/jivesoftware/spark/managers/AbstractSearchManager.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="SparkWeb.html" tooltip="SparkWeb/bin-debug/SparkWeb.html">
-<persistable path="/SparkWeb/bin-debug/SparkWeb.html"/>
-</file>
-<file factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" id="com.adobe.flexbuilder.ui.StartPage" name="Web 浏览器" tooltip="Flash Builder 启动页">
-<persistable iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" style="20" tooltip="Flash Builder 启动页" url="file:/F:/flexbuilder/Adobe Flash Builder 4/plugins/com.adobe.flexbuilder.ui.nl1_4.0.0.272416/nl/zh/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=400"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SparkChat.as" tooltip="SparkWebCore/com/jivesoftware/spark/chats/SparkChat.as">
+<persistable path="/SparkWebCore/com/jivesoftware/spark/chats/SparkChat.as"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comp:ColorShiftingTitleWindow xmlns:comp="com.jivesoftware.spark.*" xmlns:mx="http://www.adobe.com/2006/mxml" color="white"
+							   title="{Localizator.getText('title.add.user.window')}" showCloseButton="true" close="close()" 
+							   creationComplete="init()">
+	<mx:Style>
+		.title {
+			fontWeight: bold;
+			fontSize: 12pt;
+		}
+	</mx:Style>
+	<mx:Script>
+		<![CDATA[
+			import mx.managers.PopUpManager;
+			
+			
+			public function init():void
+			{
+				
+			}
+			
+			protected function close():void 
+			{
+				PopUpManager.removePopUp(this);
+			}
+		]]>
+	</mx:Script>
+
+</comp:ColorShiftingTitleWindow>

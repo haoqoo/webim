@@ -125,13 +125,13 @@
 			configMenu();	
 		}
 		
-		[Bindable(event=dataUpdated)]
+		[Bindable(event="dataUpdated")]
 		public function get roomName():String
 		{
 			return data.name;
 		}
 		
-		[Bindable(event=dataUpdated)]
+		[Bindable(event="dataUpdated")]
 		public function get jid():UnescapedJID
 		{
 			return data.jid;

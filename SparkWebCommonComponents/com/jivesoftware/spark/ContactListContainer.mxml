@@ -33,15 +33,23 @@
 	 	  creationComplete="init()">
 	<mx:Script>
 		<![CDATA[
-			import com.jivesoftware.spark.ScrollWheelManager;
 			import com.jivesoftware.spark.AddServerWindow;
 			import com.jivesoftware.spark.AddUserWindow;
-			import org.jivesoftware.xiff.events.LoginEvent;
-			import org.jivesoftware.xiff.core.XMPPConnection;
+			import com.jivesoftware.spark.ScrollWheelManager;
+			import com.jivesoftware.spark.events.ChatEvent;
+			import com.jivesoftware.spark.managers.ChatManager;
 			import com.jivesoftware.spark.managers.Localizator;
 			import com.jivesoftware.spark.managers.SparkManager;
+			
+			import mx.core.Application;
+			import mx.managers.PopUpManager;
+			
+			import org.jivesoftware.xiff.core.XMPPConnection;
+			import org.jivesoftware.xiff.events.LoginEvent;
                                
-            private static var sharedInstance:ContactListContainer;                  
+            private static var sharedInstance:ContactListContainer;      
+			
+			//protected var  myVCard:VCard  =null;
                                      		
 			public function init():void 
 			{
@@ -52,6 +60,9 @@
 				tabs.insertTabAt(Localizator.getText('label.contacttab'), 0);
 				tabs.selectedTabIndex = 0;
 				//SparkManager.connectionManager.connection.addEventListener(LoginEvent.LOGIN, conferences.loadBookmarks);
+				
+				//
+				ChatManager.sharedInstance.addEventListener(ChatEvent.CHAT_HISTORY, createHistoryInfo);
 			}
  			
  			//TODO: this is lame
@@ -96,6 +107,17 @@
 			
 			//TODO: implement this
 			public function showStartChat():void { }
+			
+			
+			public function createHistoryInfo(evt:ChatEvent):void
+			{
+				var from:String = evt.from;
+				var to:String = evt.to;
+				
+				var historyInfoWindow:HistoryInfoWindow = HistoryInfoWindow(PopUpManager.createPopUp(DisplayObjectContainer(Application.application), HistoryInfoWindow));
+				PopUpManager.centerPopUp(historyInfoWindow);
+				
+			}
 		]]>
 	</mx:Script>
 	

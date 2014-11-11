@@ -9,6 +9,7 @@ package com.jivesoftware.spark.events
 		public static const CHAT_STARTED:String = "newChat";
 		public static const CHAT_ENDED:String = "chatClosed";
 		public static const CHAT_ERROR:String = "chatError";
+		public static const CHAT_HISTORY:String = "chatHistory";
 		
 		public static const PASSWORD_ERROR:String = "passwordError";
 		public static const REGISTRATION_REQUIRED_ERROR:String = "registrationRequiredError";
@@ -20,6 +21,8 @@ package com.jivesoftware.spark.events
 		public var chat:SparkChat = null;
 		public var activate:Boolean = true;
 		public var error:String = null;
+		public var from:String = null;
+		public var to:String = null;
 		
 		public function ChatEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false)
 		{
