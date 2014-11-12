@@ -583,9 +583,12 @@ package org.jivesoftware.xiff.im
 			{
 				groupNames = ["我的好友"];
 			}
+			if(groupNames.indexOf("我的好友")<0){
+				groupNames.push("我的好友");
+			}
 			for each(var name:String in groupNames)
 			{
-				//if there's no group by this name already, we need to make one
+				//if there's no group by this name already, we need to make one								
 				if(!getGroup(name))
 					groups.addItem(new RosterGroup(name));
 			}

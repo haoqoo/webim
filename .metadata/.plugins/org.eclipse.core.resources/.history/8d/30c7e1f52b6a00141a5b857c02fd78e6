@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comp:ColorShiftingTitleWindow xmlns:comp="com.jivesoftware.spark.*" xmlns:mx="http://www.adobe.com/2006/mxml" color="white"
+							   title="{Localizator.getText('title.history.info.window')}" showCloseButton="true" close="close()" 
+							   creationComplete="init()" width="600">
+	<mx:Style>
+		.title {
+			fontWeight: bold;
+			fontSize: 12pt;
+		}
+	</mx:Style>
+	<mx:Script>
+		<![CDATA[
+			import com.jivesoftware.spark.managers.Localizator;
+			import com.jivesoftware.spark.managers.SparkManager;
+			
+			import mx.controls.Alert;
+			import mx.managers.PopUpManager;
+			
+			
+			public function init():void
+			{
+				var server:String = SparkManager.getConfigValueForKey("server");
+				Alert.show(server);
+			}
+			
+			protected function close():void 
+			{
+				PopUpManager.removePopUp(this);
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:Canvas/>
+		
+
+</comp:ColorShiftingTitleWindow>

@@ -1480,3 +1480,156 @@ org.eclipse.core.internal.resources.ResourceException: 找不到标记 ID 321。
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.core.resources 4 376 2014-11-11 16:50:33.228
 !MESSAGE 找不到标记 ID 321。
+!SESSION 2014-11-12 08:24:06.998 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:10.992
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:10.992
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:10.992
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:13.925
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:32.414
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:32.423
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:32.427
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 08:24:35.761
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 09:59:58.472
+!MESSAGE NLS unused message: DocumentInputStream_error_read in: org.eclipse.core.internal.filebuffers.FileBuffersMessages
+
+!ENTRY org.eclipse.jface 2 0 2014-11-12 10:00:18.546
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-12 10:00:18.546
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		ActionHandler(com.adobe.flexbuilder.as.editor.ui.packageexplorer.actions.FlexPackageExplorerFindAllDeclarationsAction@f99651),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		ActionHandler(com.adobe.flexbuilder.as.editor.ui.packageexplorer.actions.FlexPackageExplorerFindAllDeclarationsAction@f99651),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-12 10:00:18.546
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		ActionHandler(com.adobe.flexbuilder.as.editor.ui.packageexplorer.actions.FlexPackageExplorerFindAllReferencesAction@1fbd5ae),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		ActionHandler(com.adobe.flexbuilder.as.editor.ui.packageexplorer.actions.FlexPackageExplorerFindAllReferencesAction@1fbd5ae),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2014-11-12 10:00:28.330
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-12 10:00:28.330
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoindent,更正缩进,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript 源代码编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(jp.gr.java_conf.ussiy.app.propedit.showunicode.command,Show Unicode,
+		,
+		Category(jp.gr.java_conf.ussiy.app.propedit.category,PropertiesEditor,null,true),
+		ActionDelegateHandlerProxy(null,jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.action.ShowUnicodeEscAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	jp.gr.java_conf.ussiy.app.propedit.PropertiesEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-12 10:00:28.330
+!MESSAGE A conflict occurred for CTRL+/:
+Binding(CTRL+/,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.toggle.comment,切换注释 ,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex 编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+/,
+	ParameterizedCommand(Command(jp.gr.java_conf.ussiy.app.propedit.togglecomment.command,Toggle Comment,
+		,
+		Category(jp.gr.java_conf.ussiy.app.propedit.category,PropertiesEditor,null,true),
+		ActionDelegateHandlerProxy(null,jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.action.ToggleCommentAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	jp.gr.java_conf.ussiy.app.propedit.PropertiesEditorScope,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:31.233
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Add_rendering_failed in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:31.258
+!MESSAGE NLS unused message: AddMemoryRenderingAction_Unable_to_add_selected_renderings in: org.eclipse.debug.internal.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:45.731
+!MESSAGE NLS unused message: ConsoleShowPreferencesAction__run_debug_console in: org.eclipse.debug.internal.ui.views.console.ConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:57.980
+!MESSAGE NLS unused message: breadcrumb_LabelPending in: org.eclipse.debug.internal.ui.views.launch.LaunchViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.165
+!MESSAGE NLS unused message: VariablesView__Copy_8 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.166
+!MESSAGE NLS unused message: VariablesView__Paste_14 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.166
+!MESSAGE NLS unused message: VariablesView_Co_ntent_Assist_3 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.166
+!MESSAGE NLS unused message: VariablesView_Cu_t_11 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.166
+!MESSAGE NLS unused message: VariablesView_Error_1 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.167
+!MESSAGE NLS unused message: VariablesView_Select__All_5 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.167
+!MESSAGE NLS unused message: VariablesView_Unable_to_configure_variable_details_area__2 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.167
+!MESSAGE NLS unused message: VariablesView_56 in: org.eclipse.debug.internal.ui.views.variables.VariablesViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.716
+!MESSAGE NLS unused message: VariableColumnPresentation_4 in: org.eclipse.debug.internal.ui.elements.adapters.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-11-12 10:10:58.717
+!MESSAGE NLS unused message: VariableColumnPresentation_5 in: org.eclipse.debug.internal.ui.elements.adapters.Messages

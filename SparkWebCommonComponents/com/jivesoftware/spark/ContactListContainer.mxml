@@ -113,8 +113,10 @@
 			{
 				var from:String = evt.from;
 				var to:String = evt.to;
-				
+												
 				var historyInfoWindow:HistoryInfoWindow = HistoryInfoWindow(PopUpManager.createPopUp(DisplayObjectContainer(Application.application), HistoryInfoWindow));
+				historyInfoWindow.from = from;
+				historyInfoWindow.to = to;
 				PopUpManager.centerPopUp(historyInfoWindow);
 				
 			}

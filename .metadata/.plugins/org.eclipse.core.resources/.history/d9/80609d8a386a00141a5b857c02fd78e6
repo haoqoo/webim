@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comp:ColorShiftingTitleWindow xmlns:comp="com.jivesoftware.spark.*" xmlns:mx="http://www.adobe.com/2006/mxml" color="white"
+							   title="{Localizator.getText('title.history.info.window')}" showCloseButton="true" close="close()" 
+							   creationComplete="init()" width="500" height="500" preinitialize="preInit()">
+	<mx:Style>
+		.title {
+			fontWeight: bold;
+			fontSize: 12pt;
+		}
+	</mx:Style>
+	<mx:Script>
+		<![CDATA[
+			import com.adobe.serialization.json.JSON;
+			import com.jivesoftware.spark.managers.Localizator;
+			import com.jivesoftware.spark.managers.SparkManager;
+			
+			import mx.controls.Alert;
+			import mx.managers.PopUpManager;
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.http.mxml.HTTPService;
+			
+			
+			[Bindable]
+			public var from:String = null;
+			
+			[Bindable]
+			public var to:String = null;
+			
+			
+			
+			[Bindable]
+			private var jsonData:Object
+			
+			public function preInit():void
+			{
+				
+				//s.addEventListener(FaultEvent.FAULT, httpFault);  
+			}
+			
+			public function init():void
+			{
+				var server:String = SparkManager.getConfigValueForKey("server");
+				var httpUrl:String = "http://"+server+":9090/plugins/chatlogs?action=query&sender="+from+"&receiver="+to;
+				
+				
+				var s:HTTPService = new HTTPService();
+				s.url = httpUrl;//加一个时间参数防止缓存		
+				s.useProxy = false;
+				s.showBusyCursor = true;
+				s.addEventListener(ResultEvent.RESULT, getJson);
+				s.send();
+				trace(s);
+				
+				
+			}
+			
+			protected function close():void 
+			{
+				PopUpManager.removePopUp(this);
+			}
+			
+			public function getJson(event:ResultEvent):void{
+				var re:String=event.result.toString();
+				jsonData=JSON.decode(re);
+				
+			}
+		]]>
+	</mx:Script>
+	
+	
+	
+	<mx:Canvas/>
+		
+
+</comp:ColorShiftingTitleWindow>
